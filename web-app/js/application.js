@@ -7,3 +7,6 @@ if (typeof jQuery !== 'undefined') {
 		});
 	})(jQuery);
 }
+// Init Kendo
+kendo.init($("#view"));
+kendo.culture("en-GB"); // change the culture

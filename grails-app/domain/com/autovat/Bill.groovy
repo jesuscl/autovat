@@ -1,8 +1,10 @@
 package com.autovat
 
 import cr.co.arquetipos.currencies.Money
+import grails.rest.Resource
 import org.joda.time.LocalDate
 
+@Resource(uri='/bills', formats=['json', 'xml'])
 class Bill extends VatDomain {
     /** This is the Bill reference */
     String reference
